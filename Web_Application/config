@@ -1,0 +1,19 @@
+{
+  "mongo_0": {
+    "cluster": "Museum0",
+    "database": "room0"
+  },
+  "mongo_1": {
+    "cluster": "Museum0",
+    "database": "room1"
+  },
+  "mqtt": {
+    "broker": "broker.mqttdashboard.com",
+    "port": 1883,
+    "topics": {
+      "presence_prev": "room0",
+      "presence_curr": "room1",
+      "room": "room1/exhibit"
+    }
+  }
+}
